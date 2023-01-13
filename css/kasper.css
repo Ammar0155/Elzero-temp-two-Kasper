@@ -131,7 +131,7 @@ header .container li a{
     position: relative;
     z-index: 2;
 }
-header .container li a:hover{
+header .container li a:hover, header .container li a.active{
   color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
 
